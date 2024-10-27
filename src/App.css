@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Estilos para a navbar */
+.navbar-custom {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar-custom .navbar-brand img {
+  height: 40px;
+}
+
+.heigthTextBaner{
+  width: 70%;
+}
+
+.text-Rochart{
+  color: #27496D;
+}
+/* Ajuste o conteúdo abaixo da navbar */
+body {
+  padding-top: 70px; /* Ajuste esse valor conforme a altura da sua navbar */
+}
+
+.cardService {
+  height: 250px;
+  background-image: url('assets/bannerServicos.png');
+  background-size: cover; /* Para ajustar a imagem ao tamanho do elemento */
+  background-position: center; /* Centraliza a imagem */
+}
+
+.text-silver{
+  color: silver;
+}
+
+.bg-silver{
+  background-color: silver;
+}
+
+.myMail{
+  text-decoration: none;
+  color:#282c34
+}
+
+.bg-rochart{
+  background: linear-gradient(0deg, #005276, #2E99C8);
+}
+
+.btn-rochart {
+  background: linear-gradient(0deg, #005276, #2E99C8);
+  color: white!important;
+}
+
+.btn-rochart:hover {
+  background: #011A38 !important;
+  color: white!important;
+}
+
+.btn-rochart-outline {
+  background: #ffffff;
+  color: #005276!important;
+  border: 1px solid #005276!important;
+}
+
+.btn-rochart-outline:hover {
+  background: #011A38 !important;
+  color: white!important;
+}
+
+.text-Azul-Marinho {
+  color: #080C1C!important;
+}
+
+.text-Azul-Oxford{
+  color: #011A38!important;
+}
+
+.text-Between-Night{
+  color: #005276!important;
+}
+
+.text-Between-Day{
+  color: #2E99C8!important;
+}
+
+.banner-img {
+  background: url('assets/1.mp4') !important; 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
