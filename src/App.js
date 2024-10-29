@@ -5,6 +5,7 @@ import './App.css';  // Importa o arquivo de estilo
 import logo from './assets/ROCHART LOGO 2024 ROCH 1-4-02.webp';  // Caminho do logotipo
 
 function App() {
+
   return (
     <Router>
       <div>
@@ -32,10 +33,18 @@ function App() {
                   <Link className="nav-link" to="/portifolio">Portfólio</Link>
                 </li>
                 <li className="nav-item p-2">
-                  <Link className="nav-link" to="/sobre">Sobre</Link>
+                  <Link className="nav-link" to="/sobre">Sobre nós</Link>
+                </li>
+                <li className="nav-item p-2">
+                  <Link className="nav-link" to="/Contacto">Contacto</Link>
                 </li>
               </ul>
-              <button type="button" className="btn btn-rochart btn-sm rounded-pill m-2 shadow">Contacte-nos</button>
+
+              <Link className="btn btn-rochart btn-sm rounded-pill m-2 shadow" to="/Contacto">
+              Peça um orçamento
+              </Link>
+             
+
             </div>
           </div>
         </nav>
@@ -53,15 +62,26 @@ function App() {
                 </div>
                 <div className='col-sm-3'>
                     <h5 className='text-white'>Contactos</h5>
-                    <a className='myMail text-Azul-Marinho' href='mailto:rochart@mail.com'>rochart@mail.com</a><br /><br />
-                    <a className='myMail text-Azul-Marinho' href="tel:+244999000000">+244 999 000 000</a><br />
-                    <a className='myMail text-Azul-Marinho' href="tel:+244999000001">+244 999 000 001</a><br />
+                    <a className='myMail text-Azul-Marinho' href='mailto:geral@rochart.net'>geral@rochart.net</a><br /><br />
+                    <a className='myMail text-Azul-Marinho' href="tel:+244947966706">(+244) 947 966 706</a><br />
+                    <a className='myMail text-Azul-Marinho' href="tel:+244927703326">(+244) 927 703 326</a><br />
                 </div>
 
                 <div className='col-sm-3'>
                     <h5 className='text-white'>Mideias Sociais</h5>
-                    <a className='myMail text-Azul-Marinho me-2' href="tel:+244999000001"><i class="fa-brands fa-square-whatsapp fs-1"></i></a>
-                    <a className='myMail text-Azul-Marinho me-2' href="tel:+244999000001"><i class="fa-brands fa-square-instagram fs-1"></i></a>
+                    <a className="myMail text-Azul-Marinho me-2" href="https://wa.me/947966706" target="_blank" rel="noopener noreferrer">
+                      <i class="fa-brands fa-square-whatsapp fs-1"></i>
+                    </a>
+
+                    <a
+                        className="myMail text-Azul-Marinho me-2"
+                        href="https://www.instagram.com/rochart.ao"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa-brands fa-square-instagram fs-1"></i>
+                      </a>
+
                     <a className='myMail text-Azul-Marinho me-2' href="tel:+244999000001"><i class="fa-brands fa-square-facebook fs-1"></i></a>
                     <a className='myMail text-Azul-Marinho me-2' href="tel:+244999000001"><i class="fa-brands fa-linkedin fs-1"></i></a>
                 </div>

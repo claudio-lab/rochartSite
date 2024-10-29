@@ -45,7 +45,7 @@ function Inicio() {
     <div>
 
       <div className='container-fluid bg-white p-5'>
-        <div className='container'>
+        <div className='container mt-5 mb-5'>
           <div className='row'>
               <div className='col-sm-5 d-flex flex-column p-5'>
                   <p className='mt-5 text-Azul-Marinho'>Publicidade/Marketing</p>
@@ -54,6 +54,7 @@ function Inicio() {
                   <p className='text-Rochart'>Comunicação e Soluções Empresariais. Soluções que impulsionam o seu crescimento, +35 projectos | 5 anos transformando ideias.</p>
                   <div>
                     <button type="button" class="btn btn-rochart btn-sm rounded-pill me-2 shadow">Comece aqui</button>
+                    
                     <button type="button" class="btn btn-rochart-outline btn-sm rounded-pill shadow">Ver protifolio</button>
                   </div>
               </div>
@@ -80,45 +81,83 @@ function Inicio() {
         </div>
       </div>
       <div>
-      <div className='container pt-5 mt-5 pb-5 mb-5'>
-        <h4 className='text-Azul-Marinho'>Serviços</h4>
-        <div className='row'>
+      <div className='container-fluid p-5 '>
+        <div className='container mt-5 mb-5'>
+          <h4 className='text-Azul-Marinho'>Serviços</h4>
+          <div className='row'>
 
-          <div className='col-sm-6 p-5'>
-            <div className='bg-white border rounded-4 shadow-lg'>
-              <div className=' border d-flex align-items-center justify-content-center rounded-top-4 pt-4 pb-4 cardService'>
-              <h1 className='text-Between-Night m-5 p-5 rounded-4 bg-white'>Web</h1>
+          <div className='col-sm-4 p-5'>
+            <div className='bg-white border rounded-4'>
+            <div className="border d-flex align-items-end justify-content-start rounded-top-4 pt-4 pb-4 cardService"
+              style={{
+                backgroundImage: "url('/servicos/44.webp')",
+                height: '250px',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat'
+              }}
+            >
+              <h1 className='text-white px-3'>Web <br/> Design</h1>
               </div>
               <div className='m-3'>
-                {/* <h2 className='text-Between-Night'>Web</h2> */}
-                {/* <small className='text-Rochart'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small> */}
+                <h3 className='text-Rochart'>Criação de <br/> web site e App</h3>
                 <div className='mt-3 mb-3'>
-                <button type="button" class="btn btn-rochart-outline btn-sm rounded-pill shadow">Ver mais</button>
+                <button type="button" class="btn btn-rochart-outline btn-sm rounded-pill">Saber mais</button>
                 </div>
               </div>
             </div>
-          </div>
-         
-          <div className='col-sm-6 p-5'>
-            <div className='bg-white border rounded-4 shadow-lg'>
-              <div className=' border d-flex align-items-center justify-content-center rounded-top-4 pt-4 pb-4 cardService'>
-              <h1 className='text-Between-Night m-5 p-5 rounded-4 bg-white'>Designer</h1>
+            </div>
+
+            <div className='col-sm-4 p-5'>
+            <div className='bg-white border rounded-4'>
+               <div className="border d-flex align-items-end justify-content-start rounded-top-4 pt-4 pb-4 cardService"
+              style={{
+                backgroundImage: "url('/servicos/47.webp')",
+                height: '250px',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat'
+              }}
+            >
+              <h1 className='text-white px-3'>Gestão <br/> de Mídias</h1>
               </div>
               <div className='m-3'>
-                {/* <h6 className='text-Between-Night'>Desiner</h6>
-                <small className='text-Rochart'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small> */}
+                <h3 className='text-Rochart'>Estrategia e<br/> Criação de Conteúdo</h3>
                 <div className='mt-3 mb-3'>
-                <button type="button" class="btn btn-rochart-outline btn-sm rounded-pill shadow">Ver mais</button>
+                <button type="button" class="btn btn-rochart-outline btn-sm rounded-pill">Saber mais</button>
                 </div>
               </div>
             </div>
-          </div>
+            </div>
 
+            <div className='col-sm-4 p-5'>
+            <div className='bg-white border rounded-4'>
+            <div className="border d-flex align-items-end justify-content-start rounded-top-4 pt-4 pb-4 cardService"
+              style={{
+                backgroundImage: "url('/servicos/48.webp')",
+                height: '250px',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat'
+              }}
+            >
+              <h1 className='text-white px-3'>Marketing <br/> 1365°</h1>
+              </div>
+              <div className='m-3'>
+                <h3 className='text-Rochart'>Comunicação<br/> Gestão e acessoria</h3>
+                <div className='mt-3 mb-3'>
+                <button type="button" class="btn btn-rochart-outline btn-sm rounded-pill">Saber mais</button>
+                </div>
+              </div>
+            </div>
+            </div>
+
+          </div>
         </div>
       </div>
       </div>
-      <div className='bg-rochart mt-5 pt-5 pb-5 mb-5'>
-        <div className='container mt-5 mb-5'>
+      <div className='bg-rochart p-5'>
+        <div className='container mt-5 mb-5 pt-5 pb-5'>
           <h4 className='text-white'>O que oferecemos</h4>
           <div className='row pt-4 pb-4'>
             <div className='col-sm-4 px-5'>
@@ -145,8 +184,8 @@ function Inicio() {
           </div>
         </div>
       </div>
-      <div className=''>
-        <div className='container pt-5 pb-5'>
+      <div className='container-fluid p-5'>
+        <div className='container mt-5 mb-5 pt-5 pb-5'>
           <h4 className='text-Azul-Marinho'>Soluções</h4>
           <div className='row'>
             <div className='col-sm-4'>

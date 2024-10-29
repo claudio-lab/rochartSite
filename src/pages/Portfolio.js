@@ -29,7 +29,7 @@ function Portfolio() {
   ];
 
   return (
-    <div className='container py-5'>
+    <div className='container pt-5 pb-5 mt-5 mb-5'>
       <h4 className='mb-5 text-Azul-Marinho'>Portfólio</h4>
       <div className='row'>
         {projetos.map((projeto) => (

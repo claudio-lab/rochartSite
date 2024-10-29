@@ -2,10 +2,10 @@ import React from 'react';
 
 function Sobre() {
   return (
-    <div className='container pb-5'>
-      <h4 className='text-Azul-Marinho'>Sobre Nós</h4>
+    <div className='container pt-5 mt-5 pb-5 mb-5'>
+      <h4 className='text-Azul-Marinho mb-5'>Sobre Nós</h4>
       <div className='row'>
-        <div className='col-sm-7'>
+        <div className='col-sm-7 bg-white border rounded-4 p-4'>
           <p>
           A <strong>Rochart</strong> é uma empresa de <strong>autoria angolana</strong>, com mais de <strong>5 anos</strong> de experiência, especializada em <strong>Comunicação Institucional, Identidade Visual e Soluções Empresariais</strong>. Nosso objectivo é ajudar a <strong>fortalecer a imagem e melhorar a comunicação interna e externa</strong>  de cada cliente, contribuindo diretamente para o sucesso de suas operações empresariais.
           </p>
@@ -59,28 +59,6 @@ function Sobre() {
             </div>
           </div>
         </div>
-        {/* Mapa Google */}
-        <div className='col-sm-12'>
-            <h5>Localização</h5>
-            <div style={{ width: '100%', height: '400px' }}>
-              
-
-              <iframe 
-              title='GooleMaps'
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d942.2446902373681!2d13.236573929828964!3d-8.816860275067143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f24c74f563db%3A0x17399025a7754bf8!2sLiraLink%C2%AE%20Tecnologia!5e0!3m2!1spt-PT!2sao!4v1728859145141!5m2!1spt-PT!2sao" 
-              width="100%" 
-              height="100%" 
-              style={{ border: 0 }}
-              allowfullscreen="" 
-              loading="lazy" 
-              referrerpolicy="no-referrer-when-downgrade"
-               aria-hidden="false"
-                tabIndex="0"
-              ></iframe>
-            </div>
-    
-        </div>
-
       </div>
     </div>
   );

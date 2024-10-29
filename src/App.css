@@ -61,10 +61,10 @@ body {
 }
 
 .cardService {
-  height: 250px;
-  background-image: url('assets/bannerServicos.png');
-  background-size: cover; /* Para ajustar a imagem ao tamanho do elemento */
-  background-position: center; /* Centraliza a imagem */
+  /* height: 250px;
+  background-image: url('assets/44.png'); 
+  background-size: cover; 
+  background-position: center; */
 }
 
 .text-silver{
