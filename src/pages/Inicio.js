@@ -65,7 +65,7 @@ function Inicio() {
                       <div key={cliente.id} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
                         <img src={cliente.logo} className="d-block w-100 h-100" alt={cliente.name} style={{objectFit: 'cover', maxHeight: '350px'}} />
                       </div>
-                    ))}
+                    ))} 
                   </div>
                   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
